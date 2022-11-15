@@ -1,0 +1,81 @@
+header{
+    background-color: #1E90FF;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img{
+    position: absolute;
+    left: 4px;
+}
+
+header ul{
+    display: flex;
+}
+
+
+#logoImg{
+    width: 70px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+}
+
+header li{
+    margin-right: 10px;
+}
+
+header li a{
+    color: #fff;
+}
+
+/*FIM CABEÇARIO*/
+.container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.item1{
+    flex: 1;
+}
+
+.item2{
+    flex: 1;
+}
+
+.btn{
+    background-color: #E69AAA;
+    border-radius: 0.3rem;
+    padding: 0.5rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 500;
+    color: #fff;
+}
+
+h1,h2{
+    color: #6E5D62;
+}
+
+#contacto{
+    text-align: center;
+}
+
+#imgFundo{
+    width: 80%;
+}
+
+footer{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+}
